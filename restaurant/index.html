@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ヴィーガンレストラン/トップページ</title>
+    <link href="https://fonts.googleapis.com/css2?family=Dosis&family=Stick&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/jquery.bxslider.css">
+    <link rel="stylesheet" href="css/lightbox.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="css/hamburgers.css">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lilita+One&display=swap" rel="stylesheet">
+</head>
+<body id="top">
+    <header>
+        <h1>Bal vegle</h1>
+        <p class="tag-line">ヴィーガンを楽しく、<br>
+            豊かに</p>
+    </header>
+    <nav id="g-nav">
+        <ul>
+            <li><a href="#top" data-en="TOP">トップ</a></li>
+            <li><a href="#news" data-en="NEWS">お知らせ</a></li>
+            <li><a href="#menu" data-en="MENU">メニュー</a></li>
+            <li><a href="#movie" data-en="MOVIE">動画</a></li>
+            <li><a href="#shop" data-en="SHOP">店舗情報</a></li>
+            <li><a href="#faq" data-en="FAQ">よくある質問</a></li>
+            <li><a href="#reserve" data-en="RESERVE">予約</a></li>
+        </ul>
+    </nav>
+    <div class="main-visual">
+        <ul class="bxslider">
+            <li><img src="img/main-1.webp" alt="メイン画像1"></li>
+            <li><img src="img/main-2.webp" alt="メイン画像2"></li>
+            <li><img src="img/main-3.webp" alt="メイン画像3"></li>
+        </ul>
+    </div>
+    <div class="main-copy">
+        <h2>ヴィーガンを楽しく、<br>
+            豊かに</h2>
+        <p>私たちの料理は、動物性食品を使用していません。<br>
+            ヴィーガンの方が安心して食べることができる、<br>美味しいイタリアン料理を提供しています。<br>
+            パスタ、ピザ、メインディッシュ、デザートなど、<br>
+            様々な料理をお楽しみいただけます。
+            </p>
+    </div>
+
+    <div class="gallery">
+        <p><img src="img/gallery-1.jpg" alt=""></p>
+        <p><img src="img/gallery-2.jpg" alt=""></p>
+    </div>
+    
+    <main>
+        <section id="news">
+            <h3 data-en="NEWS">お知らせ</h3>
+            <!-- この下にdlを -->
+            <dl id="news-list">
+                <dt>2023年7月13日</dt>
+                <dd>季節に合わせて、メニューをリフレッシュしました！様々な新鮮なヴィーガン料理を取り入れ、お客様により豊かな食体験を提供します。</dd>
+                <dt>2023年7月12日</dt>
+                <dd> 誠に申し訳ございませんが、本日はお休みさせて頂きます。明日以降は通常営業になるますので、よろしくお願いいたします。</dd>
+                <dt>2023年7月11日</dt>
+                <dd>日頃から贔屓にしていただきありがとうございます。この度新店舗を六本木にオープンいたしました。より多くのお客様にヴィーガン料理の美味しさを知っていただけるよう、心を込めておもてなしいたします。</dd>
+            </dl>
+        </section><!-- #news -->
+
+        <div class="parallax-1"></div>
+        <!-- お知らせの下と店舗情報の下にパララックスを -->
+
+        <section id="menu">
+            <h3 data-en="MENU">メニュー</h3>
+            <div class="menu-wrapper">
+                <div class="menu-img">
+                    <a href="img/menu-1.jpg" data-lightbox="menu"><img src="img/menu-1.jpg" alt=""></a>
+                </div><!-- menu-img -->
+                <div class="menu-img">
+                    <a href="img/menu-2.jpg" data-lightbox="menu"><img src="img/menu-2.jpg" alt=""></a>
+                </div><!-- menu-img -->
+                <div class="menu-img">
+                    <a href="img/menu-3.jpg" data-lightbox="menu"><img src="img/menu-3.jpg" alt=""></a>
+                </div><!-- menu-img -->
+                <div class="menu-img">
+                    <a href="img/menu-4.jpg" data-lightbox="menu"><img src="img/menu-4.jpg" alt=""></a>
+                </div><!-- menu-img -->
+                <div class="menu-img">
+                    <a href="img/menu-5.jpg" data-lightbox="menu"><img src="img/menu-5.jpg" alt=""></a>
+                </div><!-- menu-img -->
+                <div class="menu-img">
+                    <a href="img/menu-6.jpg" data-lightbox="menu"><img src="img/menu-6.jpg" alt=""></a>
+                </div><!-- menu-img -->
+
+            </div><!-- menu-wrapper -->
+        </section><!-- #menu -->
+        
+        <section id="movie">
+            <h3 data-en="MOVIE">動画</h3>
+            <div class="movie-wrapper">
+                <iframe class="youtube" src="https://www.youtube.com/embed/9m6YzKJgLjs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </div><!-- movie-wrapper -->
+        </section><!-- #movie -->
+
+        <section id="shop">
+            <h3 data-en="SHOP">店舗情報</h3>
+            <div class="shop-wrapper">
+                <dl class="shop-list">
+                    <dt>住所</dt>
+                    <dd>東京都豊島区</dd>
+
+                    <dt>最寄り駅</dt>
+                    <dd>JR池袋駅東口 徒歩5分</dd>
+
+                    <dt>電話番号</dt>
+                    <dd><a class="tel" href="tel:0123456">012-3456-4563</a></dd>
+
+                    <dt>営業時間</dt>
+                    <dd>11:00~14:30 18:00~21:00</dd>
+
+                    <dt>定休日</dt>
+                    <dd>水曜日</dd>
+                </dl><!-- shop-list -->
+                <div class="map-wrapper">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1620.4762785790579!2d139.69282634551672!3d35.67817016071601!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188ccb12e12d37%3A0x320315dc022f0349!2sRegalo!5e0!3m2!1sja!2sjp!4v1689301426613!5m2!1sja!2sjp"    
+                    class="g-map" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div><!-- map=wrapper -->
+            </div><!-- shop-wrapper -->
+        </section><!-- #shop -->
+
+         <div class="parallax-2"></div>
+
+         <section id="faq">
+            <h3 data-en="FAQ">よくある質問</h3>
+
+            <div class="faq-wrapper">
+                
+                <details open>
+                    <summary>ヴィーガンとは何ですか? </summary>
+                    <p class="answer">ヴィーガンとは、動物性の食品や製品を一切使用せず、植物由来の食品だけを取り入れる生活スタイルを歩きます。ヴィーガンレストランでは、肉、魚、乳製品、卵などを含まない100%植物性の料理を提供しています。</p>
+                </details>
+
+                <details>
+                    <summary>アレルギーや食品制限を持っていますが、ヴィーガンレストランで食事を楽しむことはできますか? ? </summary>
+                    <p class="answer">はい、もちろん可能です！ヴィーガンレストランでは、大豆、小麦、ナッツ、グルテンなど、特定のアレルギーや食品制限を設けて多彩なメニューをご提供しています。お気軽にスタッフにご相談ください。</p>
+                </details>
+
+                <details>
+                    <summary>ヴィーガン料理は健康ですか? </summary>
+                    <p class="answer">はい、ヴィーガン料理は一般的に健康的で栄養バランスに優れています。植物性食品は繊維、ビタミン、ミネラル、抗酸化物質が豊富であり、心臓病、高血圧、糖尿病などの慢性疾患のリスクを軽減することが示されています。当レストランの料理は新鮮で持続可能な食材を使用し、美味しさと栄養を両立させています。</p>
+                </details>
+
+                <details>
+                    <summary>予約は必要ですか?  </summary>
+                    <p class="answer">通常の営業時間では予約は必須ではありませんが、特別なイベントや混雑が予想される日には予約をお勧めします。オンライン予約システムを利用できますので、事前にお気軽にご予約ください。</p>
+                </details>
+
+            </div><!-- faq-wrapper -->
+         </section>
+         <!-- frequently asked question よくある質問-->
+
+        
+    </main>
+
+    <!-- ハンバーガーメニュー -->
+    <p id="ham-btn" class="burger">
+        <span class="burger-box"></span>
+        <span class="burger-inner"></span>
+        <span></span>
+    </p>
+ <!-- カルーセル -->
+         <div class="carousel">
+            <ul class="bxslider2">
+                <li><img src="img/menu-1.jpg" alt=""></li>
+                <li><img src="img/menu-2.jpg" alt=""></li>
+                <li><img src="img/menu-3.jpg" alt=""></li>
+                <li><img src="img/menu-4.jpg" alt=""></li>
+                <li><img src="img/menu-5.jpg" alt=""></li>
+                <li><img src="img/menu-6.jpg" alt=""></li>
+                <li><img src="img/main-3.webp" alt=""></li>
+                <li><img src="img/main-2.webp" alt=""></li>
+            </ul>
+         </div>
+
+    <footer>
+        <p><small>&copy; <span id="year"></span>  VEGLE</small></p>
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+    <script src="js/lightbox.js"></script>
+    <script src="js/jquery.bxslider.js"></script>
+    <script>
+        $(function(){
+            $('.bxslider').bxSlider({
+                mode: 'fade',
+                auto: true,
+                controls: false,
+                pager: false,
+                speed: 2000,
+                pause: 2000,
+            });
+
+             // 外部ファイルを呼び出す
+             $('#news-list').load('news.txt');
+
+ // 西暦を取得
+         let FullYear = new Date().getFullYear();
+            console.log(FullYear);
+            $('#year').text(FullYear);
+            //2024年以降は表記を変更
+            if(FullYear > 2023){
+                $('#year').text('2023 - ' + FullYear );
+            }
+
+            //カルーセル部分
+            $('.bxslider2').bxSlider({/* $('呼び出したい場所').bxSli */
+            ticker: true,
+            speed: 20000,
+            minSlides: 3,
+            maxSlides: 5,
+            slideWidth: 300,
+            });
+            
+            $('#ham-btn').on('click',function(){
+                $(this).toggleClass('active');
+                $('#g-nav').fadeToggle(500);
+            });
+
+            /* 項目をクリックでnavを閉じる */
+            $('#g-nav a').on('click',function(){
+                $('#g-nav').fadeOut(500);
+                $('#ham-btn').removeClass('active');
+            });
+        });
+    
+    </script>
+</body>
+</html>
